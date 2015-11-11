@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/card_balance"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/cardBalance"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="UnusedAttribute" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <EditText
+                android:background="@drawable/rounded_corner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/cardBalanceText"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/yearly_interest"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/yearlyInterest"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="UnusedAttribute" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <EditText
+                android:background="@drawable/rounded_corner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/yearlyInterestText"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/min_payment"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/minPayment"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="UnusedAttribute" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <EditText
+                android:background="@drawable/rounded_corner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/minPaymentText"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/final_card_balance"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/finalCardBalance"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="UnusedAttribute" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <EditText
+                android:background="@drawable/rounded_corner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/finalCardBalanceText"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/months_remaining"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/monthsRemaining"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="UnusedAttribute" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <EditText
+                android:background="@drawable/rounded_corner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/monthsRemainingText"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/paid_interest"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:id="@+id/paidInterest"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="UnusedAttribute" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <EditText
+                android:background="@drawable/rounded_corner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/paidInterestText"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/compute"
+            android:id="@+id/compute"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:id="@+id/clear"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>
