@@ -32,7 +32,8 @@
                 android:layout_height="match_parent"
                 android:id="@+id/cardBalanceText"
                 android:layout_gravity="center_vertical"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:inputType="numberDecimal" />
         </LinearLayout>
 
     </LinearLayout>
@@ -64,7 +65,8 @@
                 android:layout_height="match_parent"
                 android:id="@+id/yearlyInterestText"
                 android:layout_gravity="center_vertical"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:inputType="numberDecimal" />
 
         </LinearLayout>
 
@@ -98,7 +100,8 @@
                 android:layout_height="match_parent"
                 android:id="@+id/minPaymentText"
                 android:layout_gravity="center_vertical"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:inputType="numberDecimal" />
         </LinearLayout>
 
     </LinearLayout>
@@ -131,7 +134,8 @@
                 android:layout_height="match_parent"
                 android:id="@+id/finalCardBalanceText"
                 android:layout_gravity="center_vertical"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:enabled="false" />
         </LinearLayout>
 
     </LinearLayout>
@@ -164,7 +168,8 @@
                 android:layout_height="match_parent"
                 android:id="@+id/monthsRemainingText"
                 android:layout_gravity="center_vertical"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:enabled="false" />
         </LinearLayout>
 
     </LinearLayout>
@@ -197,7 +202,8 @@
                 android:layout_height="match_parent"
                 android:id="@+id/paidInterestText"
                 android:layout_gravity="center_vertical"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:enabled="false"/>
         </LinearLayout>
 
     </LinearLayout>
